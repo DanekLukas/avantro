@@ -1,0 +1,27 @@
+{
+    "name": "lukas/avantro",
+    "description": "test from avantro done by lukas danek",
+    "type": "project",
+    "require": {
+        "elasticsearch/elasticsearch": "dev-main",
+        "symfony/dom-crawler": "6.4.x-dev",
+        "symfony/css-selector": "6.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukas\\Avantro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lukáš Daněk",
+            "email": "dr.danek@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
